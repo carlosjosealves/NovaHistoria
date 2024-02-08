@@ -1,0 +1,44 @@
+.contatos {
+    background: #243a69;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.conteudo-cont {
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+    align-items: center;
+    font-size: 40px;
+}
+
+.cont-jonatas {
+    color: #ff9317;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.list-contato {
+    padding: 10px;
+    list-style: none;
+}
+
+.link-contato {
+    text-decoration: none;
+    color: #ff9317;
+}
+
+@media screen and (max-width: 600px) {
+
+    .conteudo-cont {
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .cont-jonatas {
+        text-transform: none;
+    }
+}

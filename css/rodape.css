@@ -1,0 +1,41 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    background-image: url(../imagens/inventory_header.jpg);
+    height: 400px;
+    width: 100%;
+}
+
+.descricao-rodape {
+    margin-left: 70px;
+    font-size: 40px;
+
+}
+
+.link-rodape {
+    color: #ff9317;
+    display: flex;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.descricao-rodape:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .rodape {
+        background-image: url(../imagens/rodape.jpg);
+    }
+
+    .descricao-rodape {
+        color: rgb(5, 5, 5);
+        font-size: 25px;
+    }
+
+    .link-rodape {
+        color: #ff9317;
+        text-decoration: none;
+        margin-top: 350px;
+    }
+}

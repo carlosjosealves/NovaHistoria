@@ -1,0 +1,116 @@
+.titulos {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.banner2 {
+    display: flex;
+    background-image: url(../imagens/imobiliaria.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+.main {
+    text-align: center;
+}
+
+.titulo {
+    margin: 150px 0 0 50px;
+    font-size: 40px;
+    color: #ff9317;
+}
+
+.titulos2 {
+    text-align: center;
+    margin: 60px 0;
+    letter-spacing: 2px;
+}
+
+.imagens {
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+.imagens-conteiner {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo1 {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-evenly;
+}
+
+.conteudo-descricao {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    padding: 30px;
+}
+
+.conteudo-descricao-Jonatas {
+    font-size: 30px;
+    text-align: justify;
+    padding: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .banner2 {
+        width: 100%;
+        background-image: url(../imagens/imobiliaria2.jpg);
+    }
+
+    .titulo {
+        margin: 30px 0 0 20;
+        font-size: 25px;
+    }
+
+    .titulos {
+        padding: 20px;
+    }
+
+    .conteudo1 {
+        flex-direction: column;
+    }
+
+    .conteudo2 {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    .imagens-conteiner {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .imagens {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .conteudo-descricao {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+}
